@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(82, 82, 82);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.sub-title{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 26.5px;
+    margin-left: 18px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.indigo{
+    background-color: indigo;
+}
+.violet{
+    background-color: violet;
+}
+
+.demo{
+    margin-top: 425px;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 25%;
+    animation-name:demo;
+    animation-duration: 4s;
+    animation-iteration-count:infinite; 
+    margin-left: 5px;
+    
+    /* animation-direction: alternate; */
+}
+
+@keyframes demo{
+    to{
+        transform: rotate(360deg);
+        
+    }
+}
